@@ -5,15 +5,15 @@ public class Exercise03 {
     // Esto es una funcion, ya que devuelve un valor
     // TODO ↓: Tiene que devolver el siguiente mensaje: "Hola. Bienvenido " y la cadena de textos que se le pasa por parámetro.
     public static String greetings(String name) {
-        String greeting = "Hola. Bienvenido " + name;
-        return greeting;
+
+        return "Hola. Bienvenido " + name;
     }
 
     // Esto es una funcion, ya que devuelve un valor
     // TODO ↓: Tiene que devolver el siguiente mensaje: "Ups. No pudimos validar tus datos. Tu nombre de usuario no es " y la cadena de texto que se le pasa por parámetro
     public static String error(String nombre) {
-        String error = "Ups. No pudimos validar tus datos. Tu nombre de usuario no es " + nombre;
-        return error;
+
+        return "Ups. No pudimos validar tus datos. Tu nombre de usuario no es " + nombre;
     }
 
     //Esto es un procedimiento, ya que no devuelve un valor
